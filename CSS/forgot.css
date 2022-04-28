@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.forgot_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 80px);
+}
+.forgot_center{
+    background-color: #e2eded7d;
+    max-width: 335px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 10px;
+    border: 1px solid rgba(148, 144, 144, 0.884);
+    text-align: center;
+}
+.forgot_password_email{
+    margin: 30px 0 15px 0;
+    
+}
+.forgot_password_email input{
+    width: 300px;
+    height: 32px;
+    padding-left: 5px;
+}
+.forgot_password_link_button input{
+    width: 101px;
+    height: 30px;
+}

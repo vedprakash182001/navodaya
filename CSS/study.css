@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.study_main_container{
+    background-image: url(../image/study_background.jpg);
+    background-color: green;
+    max-width: 100vw;
+    min-height: calc(105vh - 80px);
+}
+.study_content{
+    max-width: 100vw;
+    display: flex;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+/* .class6{
+    background-color: cyan;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.class7{
+    background-color: cyan;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.class8{
+    background-color: cyan;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+} */
+.class{
+    /* background-color: cyan; */
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px; 
+    box-shadow: rgb(17 17 17 / 41%) 0px 4px 8px 1px;
+}
+.class6{
+    background-image: url(../image/classs6);
+    background-size: 300px;
+}
+.class7{
+    background-image: url(../image/class7.png);
+    background-size: 300px;
+}
+.class8{
+    background-image: url(../image/class8.png);
+    background-size: 300px;
+}
+.class9{
+    background-image: url(../image/class9.jpeg);
+    background-size: 300px;
+}
+.class10{
+    background-image: url(../image/class10.png);
+    background-size: 300px;
+}
+.class11{
+    background-image: url(../image/class11.png);
+    background-size: 300px;
+}
+.class12{
+    background-image: url(../image/class12.png);
+    background-size: 300px;
+}
+.JEE{
+    background-image: url(../image/Jee.jpg);
+    background-size: 300px;
+}
+.NEET{
+    background-image: url(../image/NEET-logo.jpg);
+    background-size: 300px;
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+}
+.main_center{
+    background-color:#e2eded7d;
+    border: 2px solid black;
+    max-width: 300px;
+    height: 500px;
+    margin: 0 10px;
+    border-radius: 7px;
+    padding: 40px;
+}
+.main_center input{
+    margin: 8px 0;
+    max-width: 295px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.main_center p{
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 34px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#login_id{
+    margin-top: 20px;
+}
+#login_password{
+    margin-bottom: 30px;
+}
+.login_button{
+    display: flex;
+    justify-content: center;
+    background-color: #5555f3;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.login_button input{
+    margin: 8px 0;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-family: 'IBM Plex Serif', serif;
+}
+.login_button input:hover{
+    background-color: rgba(206, 203, 203, 0.884);
+    font-weight: 500;
+}
+.forgot_password a p{
+    font-size: 18px;
+}
+.forgot_password a:hover{
+    text-decoration: none;
+}
+.create_account p{
+    font-size: 10px;
+    margin-top: 42px;
+    margin-bottom: 5px;
+}
+.Sign_up p{
+    font-size: 20px;
+    color: red;
+    color: #3111d7;
+    margin-top: 0;
+    text-decoration: none;
+}
+ input{
+    padding-left: 5px;
+}
+#login_id{
+    width: 250px;
+}
+#login_password{
+    width: 250px;
+}
+@media(max-width:410px)
+{
+    .main_center{
+        padding: 10px;
+    }
+}

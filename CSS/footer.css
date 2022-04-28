@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    background-color: #2c28e5d6;
+   
+    min-height: 39px;
+    padding: 8px 0;
+    
+}
+footer p{
+    color: white;
+    text-align: center;
+    
+} 
